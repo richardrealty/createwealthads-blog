@@ -8,6 +8,50 @@
 
 const posts = [
   {
+    slug: "speed-to-lead-meta-ads-follow-up-time",
+    title: "How Fast Do You Need to Follow Up With a Meta Ads Lead?",
+    description:
+      "The data on lead response time and why Meta ad leads decay faster than referrals — plus how Canadian small businesses can automate speed-to-lead without an enterprise CRM.",
+    datePublished: "2026-07-23",
+    faq: [
+      {
+        q: "What counts as a fast response time for a Meta ads lead?",
+        a: "Under 5 minutes is the benchmark backed by research from MIT and InsideSales.com. Under 1 minute is even better — Velocify's analysis of roughly 3.5 million leads found that calling within one minute lifted conversion rates by 391% compared to waiting longer.",
+      },
+      {
+        q: "Why do Meta ad leads go cold faster than referrals or repeat customers?",
+        a: "A referral already trusts you before they call. A Meta lead just filled out a form on impulse, often from their phone while scrolling — the intent is real but shallow, and it fades within minutes as their attention moves to the next thing in their feed.",
+      },
+      {
+        q: "Do I need an expensive CRM to hit a 5-minute response time?",
+        a: "No. A Meta native form connected through Zapier or a webhook to an SMS/email autoresponder and a phone notification is enough to get an instant acknowledgment out. The named-rep callback should follow within 15-30 minutes, but the automated first touch needs to be near-instant.",
+      },
+    ],
+    bodyHtml: `
+<p><strong>Short answer:</strong> you have about 5 minutes before a Meta ads lead's intent starts collapsing, and under 1 minute is where the real conversion lift happens. Past 30 minutes, you're mostly paying for a lead you'll never reach.</p>
+
+<h2>What the response-time data actually shows</h2>
+<p>This isn't a guess — it's been measured repeatedly. Research from MIT and InsideSales.com, analyzing over 15,000 leads, found that contacting a lead within 5 minutes makes a business roughly 21 times more likely to qualify that lead than waiting 30 minutes, and about 100 times more likely to actually reach them on the phone. Velocify's separate analysis of about 3.5 million leads found that calling within the first minute increased conversion rates by 391% versus calling later. Harvard Business Review's audit of real sales response data found an 80% drop in lead quality after just the first 5 minutes — and that the average business takes 42 hours to respond, with 23% never responding at all.</p>
+<p>Put those together and the pattern is consistent across every study: the decay curve on a fresh lead is steep, and it starts within minutes, not hours.</p>
+
+<h2>Why Meta leads decay faster than other lead sources</h2>
+<p>A referral from a past client already has trust built in before they ever contact you — that lead can sit for a day and still convert. A Meta ads lead is different. Someone filled out an Instant Form or clicked through to your landing page mid-scroll, often on their phone, in a moment of impulse interest. That intent is real, but it's shallow and un-anchored — there's no relationship holding it in place. The next video in their feed, a text message, or simply forgetting they filled out a form will erase that intent fast. This is exactly why cost-per-lead numbers can look fine while cost-per-sale looks terrible: the leads are coming in, they're just going cold before anyone reaches them.</p>
+
+<h2>What automated speed-to-lead actually looks like</h2>
+<p>"Automation" here doesn't mean AI doing your sales calls — it means removing the human delay between form submission and first contact. A working setup usually has three layers:</p>
+<ul>
+<li><strong>Instant acknowledgment (seconds):</strong> an automated SMS or email fires the moment the form is submitted — "Thanks [Name], we got your info, [Business] will call you within 15 minutes."</li>
+<li><strong>Routed notification (seconds):</strong> the lead pushes to the right person's phone via Zapier, a native CRM integration, or a webhook — not an inbox someone checks twice a day.</li>
+<li><strong>Human callback (under 30 minutes):</strong> a named rep calls, referencing the specific form answers, while the lead still remembers filling it out.</li>
+</ul>
+<p>Meta's native lead form integrations (Zapier, webhooks, and direct CRM connections like HubSpot or Salesforce) push new leads to a connected system within seconds of submission, which is what makes the first two layers possible without a person watching a dashboard all day.</p>
+
+<h2>Building this without an enterprise stack</h2>
+<p>Most Canadian small businesses, real estate agents, and mortgage brokers don't need Salesforce to do this. A Meta Instant Form or landing page form connected through Zapier (or a native webhook) to an SMS autoresponder and a phone push notification covers the instant-acknowledgment and routing layers for a low monthly tool cost. The part that actually takes discipline is the third layer: someone committing to call back inside 30 minutes, every time, including evenings and weekends — because that's exactly when a lot of real estate and mortgage inquiries come in, and it's exactly when most small business owners are least likely to be watching their phone.</p>
+<p>If your cost per lead looks reasonable but your booked-call rate is low, response time — not the ad or the offer — is the first thing worth auditing.</p>
+`,
+  },
+  {
     slug: "meta-ads-cost-canada-small-business",
     title: "How Much Do Meta Ads Cost for Small Businesses in Canada?",
     description:
