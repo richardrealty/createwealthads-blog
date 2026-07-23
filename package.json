@@ -1,0 +1,7 @@
+{
+  "name": "createwealthads-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zero-dependency server-rendered content hub for blog.createwealthads.com",
+  "license": "UNLICENSED"
+}
